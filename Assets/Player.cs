@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     {
         healthText.text = health.ToString();
         if(health <= 0){
-            healthText.text = "0";
+            healthText.text = "Dead";
             print("Ik ben dood");
             Destroy(gameObject);
         }
